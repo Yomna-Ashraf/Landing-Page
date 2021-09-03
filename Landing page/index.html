@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+
+    <title>Landing Page</title>
+  </head>
+  <body>
+    <nav style="z-index: 4;">
+        <div class="main-style navbar">
+            <div class="header-and-nav">
+            <a href="#0" class=nav-header><p class="head-name"><em>Rosy</em> <em style="color:rgb(226, 159, 171);">Lifestyle</em></p></a>
+            <div class="menu"><button class="min-icon" id="responsive-btn"><i class="material-icons">menu</i></button></div>
+            </div>
+            <div class="right-nav" id="responsive-nav">
+            <ul class="nav-ul">
+                <li><a href="#1" class="category">Products</a></li>
+                <li><a href="#2" class="category" >Reviews</a></li>
+                <li><a href="#3" class="category">Contact</a></li>
+            </ul>
+            <div class="head-btns">
+                <a href="/log-in" v-else><button class="signin-btn">Sign In</button></a>
+                <a href="/cart" style="text-decoration:none;"><button class="cart-btn"><i class="fa fa-shopping-cart"></i><p>Cart</p></button></a>              
+            </div>        
+            </div>
+        </div>  
+    </nav>
+    <main class="main-style">
+        <div class="home-header" id="0">
+            <div class='header-para'>
+              <p class="home-header-para1">Best Jewellery In The City </p>
+              <p class="home-header-para2">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
+              <div class="search-container">
+                <form method="get" action="/search" class="search-bar">
+                  <input type="text" placeholder="Search.." name="query" class="search-input">
+                  <button type="submit" class="search-btn"><i class="fa fa-search"></i></button>
+                </form>           
+              </div>
+            </div>
+        </div>
+        <div class="show-product-home">
+            <div class="div-head"><p>Latest Products</p></div>
+        </div>
+        <div class="product-view-con" id="1">
+            <div class="product-view">
+                <div class="img-con">
+                    <figure class="img-figure"><img src ="rose-cycle.jpg" class="pro-img"></figure>
+                    <div class=pro-info>
+                        <p class="pro-name">Flower Cycle</p>
+                        <p class="pro-price">$100</p>
+                        <a ><button class="pro-btn">View Details</button></a>            
+                    </div>
+                </div>                                    
+            </div>   
+            <div class="product-view">
+                <div class="img-con">
+                    <figure class="img-figure"><img src ="mix.jpg" class="pro-img"></figure>
+                    <div class=pro-info>
+                        <p class="pro-name">Flower Cycle</p>
+                        <p class="pro-price">$100</p>
+                        <a ><button class="pro-btn">View Details</button></a>            
+                    </div>
+                </div>                                    
+            </div>  
+            <div class="product-view">
+                <div class="img-con">
+                    <figure class="img-figure"><img src ="red-bocket.jpg" class="pro-img"></figure>
+                    <div class=pro-info>
+                        <p class="pro-name">Flower Cycle</p>
+                        <p class="pro-price">$100</p>
+                        <a ><button class="pro-btn">View Details</button></a>            
+                    </div>
+                </div>                                    
+            </div>   
+            <div class="product-view">
+                <div class="img-con">
+                    <figure class="img-figure"><img src ="rose-bocket.jpeg" class="pro-img"></figure>
+                    <div class=pro-info>
+                        <p class="pro-name">Flower Cycle</p>
+                        <p class="pro-price">$100</p>
+                        <a ><button class="pro-btn">View Details</button></a>            
+                    </div>
+                </div>                                    
+            </div>  
+            <div class="product-view">
+                <div class="img-con">
+                    <figure class="img-figure"><img src ="pink.jpeg" class="pro-img"></figure>
+                    <div class=pro-info>
+                        <p class="pro-name">Flower Cycle</p>
+                        <p class="pro-price">$100</p>
+                        <a ><button class="pro-btn">View Details</button></a>            
+                    </div>
+                </div>                                    
+            </div>   
+            <div class="product-view">
+                <div class="img-con">
+                    <figure class="img-figure"><img src ="basket.jpg" class="pro-img"></figure>
+                    <div class=pro-info>
+                        <p class="pro-name">Flower Cycle</p>
+                        <p class="pro-price">$100</p>
+                        <a ><button class="pro-btn">View Details</button></a>            
+                    </div>
+                </div>                                    
+            </div>                                       
+        </div>
+        <!---------------------Reviews-------------------------->        
+        <div class="review" id="2">
+            <div class="show-product-home" style = "margin-bottom: 70px;">
+                <div class="div-head"><p>Contact Us</p></div>
+            </div>
+            <div class="review-info">
+              <div class="img-container">
+                <div class="img-con2"><img src="2.jpg" class="img1" id="person-img" alt="yomna"></div>
+                <i id = "icon" class="material-icons" style="font-size:36px">format_quote</i>
+              </div>
+              <h5 id="author">Sara Jones</h5>
+              <p class="job" id="job">UX DESIGNER</p>
+              <p class="info"id="info" >Lorem ipsum dolor sit amet consectetur adipisicing elit. Iushref asperiores debitis incidunt, eius earum ipsam cupiditate libero? Iste, doloremque nihil?
+  
+              </p>
+              <div class="button-container1">
+                <button class="prev-btn">
+                  <i class="fas fa-chevron-left"></i>
+                </button>
+                <button class="next-btn">
+                  <i class="fas fa-chevron-right"></i>
+                </button>
+              </div>
+              <!-- random button -->
+              <button class="random-btn">surprise me</button>
+            </div>
+        </div> 
+        <div class="show-product-home" style = "margin-bottom: 70px;">
+            <div class="div-head"><p>Our Reviews</p></div>
+        </div>
+        <div class="container5" id="3">
+            <form action="" class="contact">
+              <label for="fname">First Name</label>
+              <input type="text" id="fname" name="firstname" placeholder="Your name..">
+          
+              <label for="lname">Last Name</label>
+              <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+          
+              <label for="country">Country</label>
+              <select id="country" name="country">
+                <option value="australia">Egypt</option>
+                <option value="canada">Canada</option>
+                <option value="usa">USA</option>
+              </select>
+          
+              <label for="subject">Subject</label>
+              <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+          
+              <input type="submit" value="Submit">
+            </form>
+          </div>  
+    </main>
+    <footer> 
+        <p class="footer-para">Yomna Ashraf &#169;copyright 2021</p>
+      </footer>
+    <script src="js/app.js"></script>
+  </body>
+
+</html>      
+      
